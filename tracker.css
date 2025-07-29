@@ -115,16 +115,40 @@
         .button:hover {
             transform: scale(1.05);
         }
-        .button-blue { background-color: #3b82f6; color: #ffffff; }
-        .button-blue:hover { background-color: #2563eb; }
-        .button-red { background-color: #ef4444; color: #ffffff; }
-        .button-red:hover { background-color: #dc2626; }
-        .button-green { background-color: #22c55e; color: #ffffff; }
-        .button-green:hover { background-color: #16a34a; }
-        .button-purple { background-color: #a855f7; color: #ffffff; }
-        .button-purple:hover { background-color: #9333ea; }
-        .button-gray { background-color: #6b7280; color: #ffffff; }
-        .button-gray:hover { background-color: #4b5563; }
+        .button-blue {
+                background-color: #3b82f6; 
+                color: #ffffff; 
+        }
+        .button-blue:hover { 
+                background-color: #2563eb; 
+        }
+        .button-red { 
+                background-color: #ef4444; 
+                color: #ffffff; 
+        }
+        .button-red:hover { 
+                background-color: #dc2626; 
+        }
+        .button-green { 
+                background-color: #22c55e;
+                       color: #ffffff;
+        }
+        .button-green:hover { 
+                background-color: #16a34a;
+        }
+        .button-purple { 
+                background-color: #a855f7; color: #ffffff;
+                       }
+        .button-purple:hover { 
+                background-color: #9333ea;
+        }
+        .button-gray { 
+                background-color: #6b7280;
+                color: #ffffff;
+        }
+        .button-gray:hover { 
+                background-color: #4b5563;
+        }
 
         /* Form input styles */
         .form-input {
