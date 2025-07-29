@@ -200,8 +200,7 @@
                 // Trigger reminder if set and expiring within 2 days (inclusive of today)
                 if (item.reminderSet && diffDays >= 0 && diffDays <= 2) {
                     const daysLeftText = diffDays === 0 ? t('today') : diffDays === 1 ? t('tomorrow') : `${diffDays} ${t('daysLeft')}`;
-                    // For a real app, you'd want to persist which reminders have been shown
-                    // to prevent them from popping up on every page load.
+                    // to prevent popping up on every page load.
                     showMessage(t('reminderTriggered').replace('{itemName}', item.name).replace('{daysLeft}', daysLeftText), 'info');
                 }
             });
@@ -269,7 +268,7 @@
                         showMessage(t('itemUpdated'), 'success');
                     }
                 } else {
-                    // Add new item (ensure it has an ID)
+                    // Add new item with ensuring it has an ID
                     itemData.id = crypto.randomUUID(); // Generate ID if not already present
                     itemData.addedDate = new Date().toISOString().split('T')[0]; // Record when added
                     itemData.reminderSet = false; // Default for new item
@@ -445,7 +444,7 @@
 
         function renderAddItem() {
             const isEditing = appState.editingItem !== null;
-            // Use existing item data if editing, or scanned product data, or default empty values
+            // Use existing item data if editing or default empty values
             const item = appState.editingItem || appState.scannedProduct || { barcode: '', name: '', brand: '', category: '', expiryDate: '', reminderSet: false };
 
             elements.pageContent.innerHTML = `
