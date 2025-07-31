@@ -79,4 +79,7 @@ Use .env file:
 docker run --env-file .env yourdockerhubusername/food-expiry-tracker:v1.0
 ```
 Developed by:
-*** Innocent Tito Muvunyi***
+
+***
+Innocent Tito Muvunyi
+***
