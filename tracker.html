@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Food Expiry Tracker</title>
     <link rel="stylesheet" href="tracker.css">
-    <script src="https://cdn.tailwindcss.com"></script>
+     <link rel="shortcut icon" href="tracker.png" type="image/x-icon">
 </head>
-<body class="min-h-screen flex flex-col">
+<body class="food-tracker-body">
 
     <header class="header">
-        <a href="#">
+        <a href="tracker.html">
             <h1 id="app-title"></h1>
         </a>
-        <nav class="w-full md:w-auto">
+        <nav>
             <ul class="nav-list">
                 <li><button id="dashboard-btn" class="nav-button"></button></li>
                 <li><button id="add-item-btn" class="nav-button"></button></li>
@@ -22,16 +22,17 @@
         </nav>
     </header>
 
-    <main id="main-content" class="flex-grow container">
+    <main id="main-content" class="container">
         <div id="message-display" class="message-box hidden"></div>
         <div id="page-content">
-            </div>
+            <!-- Content rendered here by JavaScript -->
+        </div>
     </main>
 
     <div id="confirmation-modal" class="modal-overlay hidden">
         <div class="modal-content">
             <p id="modal-message" class="text-lg font-semibold mb-4 text-gray-800"></p>
-            <div class="flex justify-end gap-3">
+            <div class="form-actions">
                 <button id="modal-cancel-btn" class="button button-gray"></button>
                 <button id="modal-confirm-btn" class="button button-red"></button>
             </div>
@@ -42,9 +43,7 @@
         &copy; <span id="current-year"></span> <span id="footer-app-name"></span>. All rights reserved.
     </footer>
 
-    <script type="text/javascript" src="tracker.js"></script>
-     
-    </script>
+    <script src="tracker.js"></script>
 
 </body>
 </html>
