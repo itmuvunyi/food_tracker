@@ -1,10 +1,10 @@
-# 🧊 Food Expiry Tracker Web App
+# Food Expiry Tracker Web App
 
 The **Food Expiry Tracker** is a lightweight web application that allows users to track food items and their expiration dates. This README documents how the app was containerized using Docker, deployed on two web servers, and served through a load balancer (HAProxy).
 
 ---
 
-## 📦 Docker Hub Repository
+## Docker Hub Repository
 
 - **Repository URL**: [https://hub.docker.com/r/yourdockerhubusername/food-expiry-tracker](https://hub.docker.com/r/yourdockerhubusername/food-expiry-tracker)
 - **Image Name**: `yourdockerhubusername/food-expiry-tracker`
