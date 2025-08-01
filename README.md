@@ -75,7 +75,7 @@ cd food_tracker
 ```
 #### YouTube Link
 ```
-https://youtu.be/3ril2-_lGlw
+https://www.youtube.com/watch?v=3ril2-_lGlw
 ```
 Developed by:
 
