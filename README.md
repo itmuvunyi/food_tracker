@@ -64,8 +64,8 @@ docker run --env-file .env logger12/fdtracker:latest
 ```
 ### Getting Started
 
-Web browsers (Chrome, Edge, etc.)
-An internet connection to fetch food expiry tracker from OpenFoodFacts API
+- `Web browsers (Chrome, Edge, etc.)`
+- `An internet connection to fetch food expiry tracker from OpenFoodFacts API`
 
 ### Installation
 #### Clone the repository:
@@ -73,7 +73,10 @@ An internet connection to fetch food expiry tracker from OpenFoodFacts API
 git clone https://github.com/your-username/food_tracker.git
 cd food_tracker
 ```
-
+#### YouTube Link
+```
+https://www.youtube.com/channel/UCLrm22QLFOxTqyZiMfOuI5w/posts?pvf=CAI%253D
+```
 Developed by:
 
 ***Innocent Tito Muvunyi***
