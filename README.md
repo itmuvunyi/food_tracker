@@ -75,6 +75,7 @@ cd food_tracker
 ```
 #### YouTube Link
 ```
+ Here: [Watch](https://www.youtube.com/watch?v=mxFstYSbBmc&list=RDZ4N8lzKNfy4&index=9)
 https://www.youtube.com/channel/UCLrm22QLFOxTqyZiMfOuI5w/posts?pvf=CAI%253D
 ```
 Developed by:
